@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Redifusion Config
+ * Revista del Consumidor - Redifusion Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -28,9 +28,9 @@ namespace Configuracion;
 class RedifusionConfig {
 
     public $xml_encoding      = 'UTF-8';
-    public $sitio_titulo      = 'Movimiento Libre';
-    public $sitio_url         = 'http://www.movimientolibre.com'; // Sin diagonal al final
-    public $sitio_descripcion = 'Últimas publicaciones de Movimiento Libre.';
+    public $sitio_titulo      = 'Revista del Consumidor';
+    public $sitio_url         = 'http://www.movimientolibre.com/revistadelconsumidor'; // Sin diagonal al final
+    public $sitio_descripcion = 'Últimas publicaciones de la Revista del Consumidor.';
     public $lenguaje          = 'es-MX';
     public $generator         = 'Plataforma de Conocimiento v1.0';
     public $webmaster_email   = 'guivaloz@movimientolibre.com (Guillermo Valdes Lozano)';

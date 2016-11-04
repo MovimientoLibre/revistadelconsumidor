@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Publicacion Config
+ * Revista del Consumidor - Publicacion Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -27,7 +27,7 @@ namespace Configuracion;
  */
 class PublicacionConfig {
 
-    public $sitio_url                 = 'http://www.movimientolibre.com'; // Sin diagonal al final
+    public $sitio_url                 = 'http://www.movimientolibre.com/revistadelconsumidor'; // Sin diagonal al final
     public $fecha                     = '1980-01-01T08:00';               // La fecha en forma de YYYY-MM-DDTHH:MM, siendo así se ordena cronológicamente
     public $autor                     = 'guivaloz';                       // El nombre o apodo a quien se le atribuye
     public $aparece_en_pagina_inicial = TRUE;                             // Verdadero si va aparecer en la página de inicio

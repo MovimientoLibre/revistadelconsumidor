@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Pagina Buscador Resultados Config
+ * Revista del Consumidor - Pagina Buscador Resultados Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *

@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Mapa Inferior Config
+ * Revista del Consumidor - Mapa Inferior Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -27,7 +27,7 @@ namespace Configuracion;
  */
 class MapaInferiorConfig {
 
-    public $sitio_titulo = 'Movimiento Libre';
+    public $sitio_titulo = 'Revista del Consumidor';
     public $logotipo     = 'imagenes/logotipo.png';
     public $en_raiz      = false; // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
 

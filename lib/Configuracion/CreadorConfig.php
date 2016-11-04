@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Creador Config
+ * Revista del Consumidor - Creador Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *

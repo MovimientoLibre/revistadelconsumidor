@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Pagina Inicial Config
+ * Revista del Consumidor - Pagina Inicial Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -67,13 +67,13 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->en_raiz                  = true;
         $this->directorio               = '.';
         $this->archivo_ruta             = "index.html";
-        $this->titulo                   = 'Movimiento Libre';
+        $this->titulo                   = 'Revista del Consumidor';
         $this->autor                    = 'guivaloz';
-        $this->descripcion              = 'Sitio web de Guillermo Valdés Lozano.';
-        $this->claves                   = 'GNU, Linux, Software Libre, Desarrollo, Mexico';
+        $this->descripcion              = 'La Revista del Consumidor es la principal referencia para los consumidores mexicanos.';
+        $this->claves                   = 'Consumo, Compras, Economia';
         $this->imagen_previa_ruta       = 'imagenes/imagen-previa.jpg';
         $this->contenido_en_renglon     = false;
-        $this->google_site_verification = '<meta name="google-site-verification" content="6Sv8bUyMDhYasgqbuGaw_YwlANs60Bobp_lOSn1x4I8">';
+     // $this->google_site_verification = '<meta name="google-site-verification" content="">';
     } // constructor
 
     /**
@@ -82,9 +82,9 @@ class PaginaInicialConfig extends \Base\Plantilla {
     protected function organizacion() {
         // Encabezado
         $organizacion                 = new \Base\SchemaOrganization();
-        $organizacion->name           = 'Movimiento Libre';
-        $organizacion->description    = 'Colección de ideas.';
-        $organizacion->image          = 'imagenes/movimientolibre.png';
+        $organizacion->name           = 'Revista del Consumidor';
+        $organizacion->description    = 'La Revista del Consumidor es la principal referencia para los consumidores mexicanos.';
+        $organizacion->image          = 'imagenes/revistadelconsumidor.png';
         $organizacion->is_article     = false;
         $organizacion->big_heading    = true;
         // Acumular

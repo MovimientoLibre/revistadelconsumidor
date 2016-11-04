@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Autores Config
+ * Revista del Consumidor - Autores Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -44,7 +44,6 @@ class AutoresConfig {
      */
     public function __construct() {
         // Autor constructor parámetros: apodo, titulo, nombre_completo, icono, empresa, cargo, semblanza, email, twitter, perfil_archivo, estatus
-    //  $this->autores[] = new \Base\Autor('diana',    '',     'Diana Valdés Espinoza',          'preferences-desktop-user', '',               'Estudiante',                 '', 'dianavales@gmail.com',         '',               '');
         $this->autores[] = new \Base\Autor('guivaloz', 'Ing.', 'Guillermo Valdés Lozano',        'preferences-desktop-user', 'IMPLAN Torreón', 'Desarrollador y Divulgador', '', 'guivaloz@movimientolibre.com', 'guivaloz',       'guillermo-valdes-lozano.md');
         $this->autores[] = new \Base\Autor('rosy',     '',     'Rosa Elena Espinoza Villarreal', 'preferences-desktop-user', 'Nemosíntesis',   'Escritora',                  '', 'rosyespin@gmail.com',          'hielitodelimon', '');
     } // constructor

@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Navegacion Config
+ * Revista del Consumidor - Navegacion Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -27,7 +27,7 @@ namespace Configuracion;
  */
 class NavegacionConfig {
 
-    protected $sitio_titulo  = 'Movimiento Libre';
+    protected $sitio_titulo  = 'Revista del Consumidor';
     protected $logotipo; // 'imagenes/logotipo.png'
     protected $opciones      = array(
         'Apuntes'        => 'apuntes/index.html',

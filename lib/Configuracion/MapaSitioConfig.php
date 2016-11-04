@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Mapa Sitio Config
+ * Revista del Consumidor - Mapa Sitio Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -27,10 +27,10 @@ namespace Configuracion;
  */
 class MapaSitioConfig {
 
-    public $xml_encoding  = 'UTF-8';                          // Character encoding to use in output XML
-    public $max_urls      = 50000;                            // Maximum number of URLs that can be specified
-    public $base_url      = 'http://www.movimientolibre.com'; // The base URL for added URLs (Sin diagonal al final)
-    public $priority_min  = 0.0;                              // The range of values priority can be
+    public $xml_encoding  = 'UTF-8';                                               // Character encoding to use in output XML
+    public $max_urls      = 50000;                                                 // Maximum number of URLs that can be specified
+    public $base_url      = 'http://www.movimientolibre.com/revistadelconsumidor'; // The base URL for added URLs (Sin diagonal al final)
+    public $priority_min  = 0.0;                                                   // The range of values priority can be
     public $priority_max  = 1.0;
     public $priority_step = 0.1;
     public $archivo       = 'sitemap.xml';

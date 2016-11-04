@@ -1,6 +1,6 @@
 <?php
 /**
- * Movimiento Libre - Plantilla Config
+ * Revista del Consumidor - Plantilla Config
  *
  * Copyright (C) 2016 Guillermo Valdés Lozano
  *
@@ -27,11 +27,11 @@ namespace Configuracion;
  */
 class PlantillaConfig {
 
-    public $sitio_titulo     = 'Movimiento Libre';
-    public $sitio_url        = 'http://www.movimientolibre.com'; // Sin diagonal al final
+    public $sitio_titulo     = 'Revista del Consumidor';
+    public $sitio_url        = 'http://www.movimientolibre.com/revistadelconsumidor'; // Sin diagonal al final
     public $rss              = 'rss.xml';
     public $favicon          = 'favicon.ico';
-    public $propio_css       = 'css/movimiento-libre.css';
+    public $propio_css       = 'css/revistadelconsumidor.css';
     public $en_raiz          = FALSE;                            // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
     public $para_compartir   = FALSE;                            // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook
     public $autor            = 'guivaloz';                       // Autor por defecto
@@ -80,7 +80,7 @@ class PlantillaConfig {
         $this->mensaje_oculto = <<<FINAL
 <!-- ==========================================================================================
 
-     Movimiento Libre
+     Revista del Consumidor
 
      Este sitio web es elaborado con la Plataforma de Conocimiento.
        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016.
