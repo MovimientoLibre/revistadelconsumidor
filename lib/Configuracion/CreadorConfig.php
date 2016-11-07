@@ -43,19 +43,14 @@ class CreadorConfig {
      */
     public function __construct() {
         $this->imprentas                = array(
-            '\\Apuntes\\Imprenta',
-            '\\Articulos\\Imprenta',
-            '\\Contacto\\Imprenta',
-            '\\Licencias\\Imprenta',
-            '\\Presentaciones\\Imprenta');
+            '\\EstudiosDeCalidad\\Imprenta',
+            '\\PlatilloSabio\\Imprenta',
+            '\\TecnologiaDomestica\\Imprenta');
         $this->imprentas_mapa_sitio     = $this->imprentas;
         $this->imprentas_redifusion     = $this->imprentas;
-        $this->imprentas_autores        = array(
-            '\\Apuntes\\Imprenta',
-            '\\Articulos\\Imprenta',
-            '\\Presentaciones\\Imprenta');
-        $this->imprentas_categorias     = $this->imprentas_autores;
-        $this->imprentas_pagina_inicial = $this->imprentas_autores;
+        $this->imprentas_autores        = array();
+        $this->imprentas_categorias     = array();
+        $this->imprentas_pagina_inicial = $this->imprentas;
     } // constructor
 
 } // Clase CreadorConfig

@@ -30,15 +30,15 @@ class NavegacionConfig {
     protected $sitio_titulo  = 'Revista del Consumidor';
     protected $logotipo; // 'imagenes/logotipo.png'
     protected $opciones      = array(
-        'Apuntes'        => 'apuntes/index.html',
-        'Artículos'      => 'articulos/index.html',
-        'Presentaciones' => 'presentaciones/index.html');
+        'Estudios de Calidad'  => 'estudios-de-calidad/index.html',
+        'Platillo Sabio'       => 'platillo-sabio/index.html',
+        'Tecnología Doméstica' => 'tecnologia-domestica/index.html');
     static public $iconos    = array(
-        'Apuntes'        => 'fa fa-files-o',
-        'Artículos'      => 'fa fa-server',
-        'Presentaciones' => 'fa fa-sun-o');
+        'Estudios de Calidad'  => 'fa fa-files-o',
+        'Platillo Sabio'       => 'fa fa-server',
+        'Tecnología Doméstica' => 'fa fa-sun-o');
     protected $buscador_html = <<<FINAL
-          <form method="get" id="" action="http://www.movimientolibre.com/buscador-resultados.html">
+          <form method="get" id="" action="http://www.movimientolibre.com/revistadelconsumidor/buscador-resultados.html">
             <input type="hidden" value="" name="cx">
             <input type="hidden" value="FORID:11" name="cof">
             <div class="input-group custom-search-form">

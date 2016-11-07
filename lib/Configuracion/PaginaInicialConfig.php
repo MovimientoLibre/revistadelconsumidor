@@ -83,7 +83,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Encabezado
         $organizacion                 = new \Base\SchemaOrganization();
         $organizacion->name           = 'Revista del Consumidor';
-        $organizacion->description    = 'La Revista del Consumidor es la principal referencia para los consumidores mexicanos.';
+        $organizacion->description    = 'La Revista del Consumidor es la principal referencia para los consumidores mexicanos que cuidan su economía de forma inteligente.';
         $organizacion->image          = 'imagenes/revistadelconsumidor.png';
         $organizacion->is_article     = false;
         $organizacion->big_heading    = true;
@@ -210,11 +210,9 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $this->contenido[] = '    <div class="row">';
         $this->contenido[] = '      <div class="col-md-8">';
         $this->contenido[] = '        <a href="index.html">Inicio</a> |';
-        $this->contenido[] = '        <a href="apuntes/index.html">Apuntes</a> | ';
-        $this->contenido[] = '        <a href="articulos/index.html">Artículos</a> | ';
-        $this->contenido[] = '        <a href="licencias/index.html">Licencias</a> | ';
-        $this->contenido[] = '        <a href="presentaciones/index.html">Presentaciones</a> |';
-        $this->contenido[] = '        <a href="contacto/contacto.html">Contacto</a>';
+        $this->contenido[] = '        <a href="estudios-de-calidad/index.html">Estudios de Calidad</a> | ';
+        $this->contenido[] = '        <a href="platillo-sabio/index.html">Platillo Sabio</a> | ';
+        $this->contenido[] = '        <a href="tecnologia-domestica/index.html">Tecnología Doméstica</a>';
         $this->contenido[] = '      </div>';
         $this->contenido[] = '      <div class="col-md-4">';
         $this->contenido[] = '        <div class="pull-right redes-sociales">';
@@ -237,9 +235,9 @@ class PaginaInicialConfig extends \Base\Plantilla {
     public function html() {
         // Elaborar secciones
         $this->organizacion();
-        $this->destacado();
+    //~ $this->destacado();
         $this->ultimas_publicaciones();
-        $this->categorias();
+    //~ $this->categorias();
         $this->redes();
         // Entregar resultado del método en el padre
         return parent::html();

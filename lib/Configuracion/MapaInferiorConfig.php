@@ -45,18 +45,14 @@ class MapaInferiorConfig {
         $a[] = '        <div class="col-md-8">';
         if ($this->en_raiz) {
             $a[] = '            <a href="index.html">Inicio</a> |';
-            $a[] = '            <a href="apuntes/index.html">Apuntes</a> | ';
-            $a[] = '            <a href="articulos/index.html">Artículos</a> | ';
-            $a[] = '            <a href="licencias/index.html">Licencias</a> | ';
-            $a[] = '            <a href="presentaciones/index.html">Presentaciones</a> |';
-            $a[] = '            <a href="contacto/contacto.html">Contacto</a>';
+            $a[] = '            <a href="estudios-de-calidad/index.html">Estudios de Calidad</a> | ';
+            $a[] = '            <a href="platillo-sabio/index.html">Platillo Sabio</a> | ';
+            $a[] = '            <a href="tecnologia-domestica/index.html">Tecnología Doméstica</a>';
         } else {
             $a[] = '            <a href="../index.html">Inicio</a> |';
-            $a[] = '            <a href="../apuntes/index.html">Apuntes</a> |';
-            $a[] = '            <a href="../articulos/index.html">Artículos</a> |';
-            $a[] = '            <a href="../licencias/index.html">Licencias</a> |';
-            $a[] = '            <a href="../presentaciones/index.html">Presentaciones</a> |';
-            $a[] = '            <a href="../contacto/contacto.html">Contacto</a>';
+            $a[] = '            <a href="../estudios-de-calidad/index.html">Estudios de Calidad</a> |';
+            $a[] = '            <a href="../platillo-sabio/index.html">Platillo Sabio</a> |';
+            $a[] = '            <a href="../tecnologia-domestica/index.html">Tecnología Doméstica</a>';
         }
         $a[] = '        </div>'; // col-md-8
         $a[] = '        <div class="col-md-4">';
