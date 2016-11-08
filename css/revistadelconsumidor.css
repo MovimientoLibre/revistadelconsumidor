@@ -211,6 +211,13 @@ a:active  { color:#C7181E; text-decoration:underline; }
     .destacado-servicio {
         min-height:110px;
     }
+    #organizacion {
+        background-image:url('../imagenes/encabezado-460x180.jpg');
+        min-height:170px;
+    }
+    #organizacion .encabezado {
+        margin:120px 0 0 0;
+    }
     #destacado .contenido-imagen-previa {
         width:96px;
         height:96px;
@@ -242,6 +249,13 @@ a:active  { color:#C7181E; text-decoration:underline; }
     .destacado-servicio {
         min-height:90px;
     }
+    #organizacion {
+        background-image:url('../imagenes/encabezado-320x125.jpg');
+        min-height:120px;
+    }
+    #organizacion .encabezado {
+        margin:80px 0 0 0;
+    }
     #destacado .contenido-imagen-previa {
         width:80px;
         height:80px;
@@ -272,6 +286,13 @@ a:active  { color:#C7181E; text-decoration:underline; }
     }
     .destacado-servicio {
         min-height:70px;
+    }
+    #organizacion {
+        background-image:url('../imagenes/encabezado-240x094.jpg');
+        min-height:100px;
+    }
+    #organizacion .encabezado {
+        margin:60px 0 0 0;
     }
     #destacado .contenido-imagen-previa {
         width:64px;
